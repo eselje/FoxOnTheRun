@@ -1,0 +1,679 @@
+/*  Recommend you do not modify this file.
+    Instead create a new file and override styles there.
+
+    Core color summary:
+	block background: #003399
+    block alternate: #0066cc
+    light alternate: #b5c7d6
+    grey: #eeeeee
+    Warning colors: Cornsilk, maroon
+
+	BROWSER RESET (based on Eric Meyer's Reset) 
+*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;		
+	line-height: normal;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-size: 100%;
+}
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;			
+	}
+ol, ul {
+	list-style: disc;			
+	}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	padding: 4px;
+	vertical-align: top;
+	}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";	
+	}
+blockquote, q {
+	quotes: "" "";
+	margin: 15px;
+	}
+input,select,textarea
+{
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+}	
+/* END BROWSER RESET */
+
+body,table,td,th,input,textarea,select
+{
+    font-family: verdana,sans-serif;
+    font-size: 10pt;
+}
+pre
+{
+    color: navy;
+    font-family: monospace,courier new;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h1
+{
+    background-color: #eeeeee;
+    color: navy;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;    
+}
+h2
+{
+    color: maroon;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+h3
+{
+    color: steelblue;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+table
+{
+ 	border-collapse: collapse;
+}
+table.blackborder>tbody>tr>td
+{
+	border: solid 1px #eeeeee;	
+}
+th
+{
+	border-collapse: collapse;
+	font-weight: bold;
+	text-align: center;
+}
+a 
+{ color:#003399; }
+a:visited
+{
+	color: maroon;
+}
+a:hover 
+{ color:red;}
+hr 
+{ color: navy; background: navy; border: 0; height:1px;}
+	
+ul 
+{
+    margin-left: 25px;
+    margin-top: 3px;    
+    margin-bottom: 12px;
+}	
+li
+{
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
+img
+{
+	border: 0px;
+}
+.blackborder
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #003399;
+	background: white;
+	text-align: left;
+}
+p
+{
+	margin: 10px 0px 10px 0px;
+}
+small 
+{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+.bigtext
+{
+	font-size: 1.8em;
+	font-weight: bold;
+	color: Navy;
+}
+
+/* block backgrounds for headers etc. */
+.menuband, .gridheader, .gridheaderleft, .gridheaderbig, .gridpager, .buttonlinks, .blockheader, .roundedbar_top, .roundedbar_bottom
+{
+	color: cornsilk;
+	background-color: #003399;
+	xpadding: 0px;
+}
+
+/* alternate background color color to offset the background
+   used for the category list and banner strips for color
+   variety. should be a companion color to the block background
+   colors (previous tag
+*/
+.alternatebackground
+{
+	color: white;
+	background-color: #0066cc;
+}
+
+/* used for any block tags like headers on tables etc. */
+.blockheader
+{
+	font-weight:bold;
+}
+.banner
+{
+	color: cornsilk;
+	font-weight:bold;
+	background: #003399 url('images/vertgradient.png') ;
+	height: 16px;
+	padding: 5px;
+	white-space:nowrap;
+}
+.bannertext, .bannerlink
+{
+	color: White;
+	text-decoration: none;
+}
+.bannerlink:visited
+{
+	color: white;
+}
+.bannerlink:hover
+{
+	color: #003399;
+	background: white url('images/menuhighlight.png');
+}
+.bannersubtitle
+{
+	color: orange;
+}
+
+
+/* used on the category list as a standard link */
+.menucolumn 
+{ 
+	padding:5px;
+	border-bottom: solid 1px white ;
+}
+.menulink
+{
+    color: white;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-decoration: none ;
+    display:block;
+    text-align:left;
+    padding-top:3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    border: solid 1px transparent;    
+}
+.menulink:visited { color: cornsilk; } 
+.menulink:hover 
+{ 
+	color:#003399; 
+	text-decoration:none; 
+	font-weight:normal; 
+	background: white url('images/menuhighlight.png') repeat-x;
+}
+.menuband
+{	
+	font-weight: bold;
+	height: 20px;
+	padding-top: 5px;
+	text-align: center;
+	background: url('images/vertgradient.png');
+}
+.menulinkcontainer
+{
+	padding: 5px;
+}
+.buttonlinks 
+{
+    font-weight:bold;
+    text-decoration: none;
+    display: block;
+    padding:2px;
+}
+.buttonlinks:visited { color: cornsilk; }
+.buttonlinks:hover { color:#003399; text-decoration:none; background:white;} 
+
+.imagelink
+{
+	text-decoration: none;
+	display: inline-block;
+	padding-left:4px;
+	padding-right: 4px;
+	padding-top: 2px;
+}
+.imagelink:hover { background: lightsteelblue; color:black; text-decoration:none; } 
+
+.submitbutton
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	font-weight: bold;
+	height: 35px;
+	width: 200px;
+	background: url('images/submitbutton.gif');
+	color: lemonchiffon;
+}
+.submitbutton:hover { background: url('images/submitbuttonhover.gif');
+} 
+.submitbutton:active { background: url('images/submitbuttonpressed.gif');
+}
+
+.smallbutton
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	height: 22px;
+	width: 90px;
+	font-size: 8.25pt;
+	color: navy;
+	background: url('images/smallbutton.gif');
+}
+.smallbutton:hover { background: url('images/smallbuttonhover.gif');
+}
+.smallbutton:active { background: url('images/smallbuttonpressed.gif');
+}
+
+.gridheader, .gridheaderbig, .gridheaderleft, .gridheaderright, .gridpager,.gridbanner,.loginheader
+{	
+	padding: 4px;
+	background:  #003399 url('images/vertgradient.png') repeat-x 50% bottom;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+.gridbanner
+{
+	color: cornsilk;
+	background: #003399 url(images/floralbackground.gif) none;
+	font-size: 16pt;
+	margin-bottom:10px;	
+}
+.gridheader a, .gridheaderbig a
+{
+	color: cornsilk;
+	text-decoration: none;
+}
+.gridheaderleft
+{
+	text-align: left;
+}
+.gridheaderright
+{
+	text-align: right;
+}
+.gridheaderbig
+{	
+	background-image: url('images/vertgradient40.png');
+	background-repeat: repeat-x;
+	background-position: 50% bottom;
+}
+.gridnormal
+{
+	background-color: #eeeeee;
+}
+.gridalternate
+{
+	background-color: #b5c7d6;
+}
+.gridhighlight
+{
+	background-color: white;
+	background-image: url('images/lightorangegradient.png');
+	background-repeat: repeat-x;
+	cursor:pointer;
+	border: solid 2px orange;
+}
+.gridpager
+{
+	font-weight: bold;
+	text-align: right;
+	color: White;		
+	text-decoration: none;
+}
+.gridpagerselectedpage
+{
+	color: khaki;
+	font-size: 11pt;
+	font-weight: bold;	
+}
+.gridpagerpage
+{	
+	text-decoration: none;
+	color: White;		
+}
+
+.groupheader  
+{
+	background: SteelBlue; color: White; padding: 4px; margin-top: 10px; margin-bottom: 5px; font-weight: bold;
+}    
+.errormessage
+{
+	font-size: 1em;
+	font-weight: bold;
+	color: maroon;
+}
+.errordisplay
+{
+	font-size: 1em;
+	font-weight: normal;
+	color: maroon;
+	border:solid 2px maroon;
+	background-color:cornsilk;
+	padding: 10px 10px 7px 10px;
+	line-height: 15pt;
+	margin: 15px 0px 15px 0px;
+}
+.errordisplay hr
+{
+	color: maroon;
+}
+.dialogwindow
+{
+	margin:0px;
+	background: #eeeeee;
+	font-size: 8pt;
+}
+.descriptionheader
+{
+	background: LightSteelblue;
+	color: black;
+	font-size: 8pt;
+	text-align: left;
+	padding: 10px;
+	margin: 10px 40px;
+	border: solid 1px navy;
+}
+
+.toolbarcontainer  
+{
+	background:#eeeeee;
+	border: solid 1px silver;
+	vertical-align: top;
+	padding: 5px; 
+}
+.hoverbutton  
+{
+	text-decoration:none;		
+	padding: 2px; 	
+	font-size: 8pt; 		
+	border: solid 1px transparent; 
+}
+.hoverbutton:hover  
+{	
+	background: white url('images/menuhighlight.png'); 
+	border: solid 1px silver; 
+}     
+.hoverbutton a
+{
+	text-decoration: none;
+}
+.tabbutton, .selectedtabbutton, .disabledtabbutton
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	font-size: 8pt;
+	background: url('images/tabnormal.gif') no-repeat;
+		text-align: center;
+		vertical-align: middle;
+		cursor: hand;
+		color: navy;
+		width: 120px;
+		margin: 0px;
+		padding:0px;
+}
+.tabbutton:hover
+{
+	background: url('images/tabhover.gif') no-repeat;
+}
+.selectedtabbutton 
+{ 
+	font-weight: bold; 
+	color: white; 
+	background: url('images/tabselected.gif') no-repeat;
+	cursor:default;
+}
+.disabledtabbutton
+{
+	color: gray;
+	opacity:.60;
+	filter: alpha(opacity="60");	
+}
+.loginheader
+{	
+	padding: 4px;
+	font-weight: bold;	
+	color: white;
+}
+.logindisplay
+{
+	border: solid 2px navy;
+	background: cornsilk;
+}
+
+.roundedbar_top
+{
+	height:20px;
+	width: 170px; 
+	padding: 5px 0px 0px 0px;
+	font-weight:bold;
+	text-align: center;	
+	background: url('images/roundedbar_top.png') no-repeat;
+	font-size: 10pt;
+}
+.roundedbar_bottom
+{
+	height:12px;
+	width: 170px; 
+	background: url('images/roundedbar_bottom.png') no-repeat;
+}
+.dragwindow
+{
+	background: white;
+	border: solid 2px steelblue;
+	position: absolute;				
+}
+
+.containercontent
+{
+	padding: 20px;	
+}
+
+legend
+{
+    text-align: center;
+	font-weight: bold;
+	background: #DE8079;
+	color: White;
+	padding: 3px;
+	border: solid 1px maroon;
+	margin-left: 15px;
+}    
+fieldset
+{
+	border: solid 1px silver;	
+	margin-bottom: 15px;
+}
+.fieldsetpadding
+{
+	padding: 15px;
+}
+input[type=text], input[type=password], textarea, select
+{    	    	
+	border: solid 1px lightsteelblue;	
+	font-size: 10pt;
+	background-color: #F5F7FA;    	
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
+{
+	background-color: #ffffdd;    	
+}
+input[type=button], input[type=submit]
+{	
+}
+.grouping
+{
+    padding: 10px;
+	background-color: whitesmoke;   
+	position: relative; 	
+}
+.menucontainer
+{
+	margin: 4px;
+}
+.statusbar
+{
+	position: fixed;
+	bottom: 5px;
+	left: 0px;
+	right: 0px;
+	height: 16px;	
+	padding: 5px;	
+	background: black;
+	color: white;	
+	border: solid 1px lightgray;
+	opacity: .85;	
+	filter: alpha(opacity="85");
+	z-index: 200;
+	overflow: hidden;
+	overflow-y: auto; 
+}
+.statusbarhighlight, .statuserror
+{
+	font-weight: bold;
+	background-color: khaki;
+	color: Maroon;
+	border: solid 1px silver;
+}
+.statusbarclose
+{
+	position: absolute;
+	right: 10px; 
+	top: 2px;
+	color:red;
+	font-size: 12pt;
+	font-weight: bold;
+	cursor: pointer;
+}
+.closebox
+{
+	width: 12px;
+	height: 12px;
+	background-image: url('images/closebox.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	position: absolute;
+	right: 2px;
+	top: 4px;
+}
+.closebox:hover
+{
+	padding: 1px;
+	background-color: white;
+}
+.samplebox
+{
+	padding: 5px 20px;
+	xborder-bottom: dotted 1px steelblue;
+}
+
+/* general code parsing */
+.codec1
+{color: blue;}
+.codec2  /* keywords */
+{color: blue;font-weight:bold;}
+.codec3
+{color: blue;}
+.codec4
+{color: blue;}
+.codec5  / * literal */
+{color: yellow;}
+.codec6
+{color: blue;}
+.codec7
+{color: blue;}
+.codec8
+{color: blue;}
+.codec9
+{color: blue;}
+.codec10
+{color: blue;}
+
+.codecomment
+{color: green; }
+
+.codestring
+{color:  teal; }
+
+.codestrong {
+   border: black solid  1px;
+   background-color: #ffd700;
+   padding-left:1px;
+   padding-right:1px;
+}
+
+.codestrike 
+{
+ text-decoration: line-through;
+}
+
+
+/* custom language styles that are attached to the wordfile.txt languages */
+.vfpcode .programcontrol {color: blue;} 
+.vfpcode .functions {color: blue;}
+.vfpcode .commands {color: blue;} 
+.vfpcode .methods {color: blue;} 
+.vfpcode .properties {color: blue; }
+.vfpcode .classes {color: red; font-size: 120%; font-variant: small-caps;} 
+.vfpcode .events {color: #483d8b;} 
+.vfpcode .systemvars {color: blue;}
+
+
+.vbcode .constants {color: blue; font-face: bold}
+.vbcode .datatypes {color: darkblue;font-face: bold}
+.vbcode .keywords {color: blue;} 
+.vbcode .statements {color: blue;} 
+.vbcode .functions {color: blue; }
+.vbcode .depracated {color: grey; font-size: 120%; font-variant: small-caps;} 
+.vbcode .programcontrol {color: blue;}
+
+.csharpcode .programcontrol {color: blue;}
+.csharpcode .datatypes {color: blue; font-weight: bold;}
+.csharpcode .literals {color: darkblue; font-weight: bold;} 
+.csharpcode .operators {color:blue;} 
+.csharpcode .preprocessor {color: lightblue;} 
+
+.htmlcode .elements {color: darkred; }
+.htmlcode .attributes {color: red; }
+.htmlcode .codestring {color: teal; background:;}
+
+.xmlcode .elements {color: darkred; }
+.xmlcode .attributes {color: red; }
+.xmlcode .commands {color: darkred; font-weight:bold }
